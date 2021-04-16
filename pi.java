@@ -23,6 +23,7 @@ public class PiFinalCompleted {
 				int intNum = Integer.parseInt(str);
 
 				try {
+					// you need to change this file name according to yours in your current directory
 					File file = new File("piiii.txt");
 					FileReader fr = new FileReader(file);
 					BufferedReader br = new BufferedReader(fr);
